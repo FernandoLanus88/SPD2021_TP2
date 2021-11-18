@@ -4,7 +4,7 @@
 
 
 //Direccion al Circuito
-https://www.tinkercad.com/things/8Fo2gibJ8e7-despertador-inteligente/editel
+//https://www.tinkercad.com/things/8Fo2gibJ8e7-despertador-inteligente/editel
 //
 
 
@@ -54,9 +54,9 @@ lcd.print(":");
 lcd.setCursor(9,0);
 lcd.print(":");
 pinMode(13, OUTPUT); 
-pinMode(A2, OUTPUT);
-pinMode (A3, OUTPUT);
-pinMode (A4, OUTPUT);
+pinMode(A2, INPUT);
+pinMode (A3, INPUT);
+pinMode (A4, INPUT);
 }
 
   
